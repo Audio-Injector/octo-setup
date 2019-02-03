@@ -1,0 +1,14 @@
+Source: audioinjector.octo.setup
+Section: unknown
+Priority: optional
+Maintainer: Matt <audioinjector@audioinjector.net>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://www.audioinjector.net
+
+Package: audioinjector.octo.setup
+Architecture: all
+Depends: ${misc:Depends}, alsa-utils
+Description: Setup for the audio injector octo sound cards for the Raspberry Pi
+ This program will setup your audioinjector octo sound card
+

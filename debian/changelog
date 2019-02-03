@@ -1,0 +1,7 @@
+audioinjector.octo.setup (0.4) UNRELEASED; urgency=medium
+
+ * Moved .asoundrc to /etc/asound.conf
+	* now removing pulse and lxpanel volumeplugin
+	* checking for panel before changing volumeplugin
+
+ -- Matt Flax <audioinejector@audioinjector.net>  Wed, 17 May 2017 22:25:00 +1000
